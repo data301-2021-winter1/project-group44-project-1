@@ -66,7 +66,7 @@ def group_(df2):
     df3 = (df2.assign(Short_Period = (df2["One_Month"]+df2["Two_Month"]+df2["Three_Month"]+df2["Six_Month"])/4)
           .assign(Medium_Period = (df2["One_Year"]+df2["Two_Year"]+df2["Three_Year"]+df2["Four_Year"])/4)
           .assign(Long_Period = (df2["Seven_Year"]+df2["Five_Year"]+df2["Ten_Year"])/3)
-          .drop(df2.columns[[0,2,3,4,5,6,7,8,9,10,11,12]], axis=1)
+          .drop(df2.columns[[2,3,4,5,6,7,8,9,10,11,12]], axis=1)
       )
     df3
     return df3
