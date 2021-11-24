@@ -18,7 +18,7 @@ We download the dataset from Statistics Canada. This is a dataset shows the chan
 ## Team Members
 
 - Person 1: I am Michael Xie, who is now currently specialized in Economics.
-- Person 2: I an Qihao Hu, a fourth year student who is also specialized in Economics.
+- Person 2: one sentence about you!
 - Person 3: one sentence about you!
 
 ## Images
